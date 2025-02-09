@@ -1,0 +1,1003 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Feb  9 23:59:58 2025
+# Process ID: 2916
+# Current directory: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26816 C:\Users\Hansa Niluka\OneDrive - University of Moratuwa\semster 07\4.EN4021 - Advanced Digital Systems\Bus-Desingn\simple_bus_MMMS_with_SSP\simple_bus_MMMS_with_SSP.xpr
+# Log file: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/vivado.log
+# Journal file: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP\vivado.jou
+# Running On: LAPTOP-P4L0CG7N, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 1533.137 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_simple_bus_MMMS_SSS'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_simple_bus_MMMS_SSS' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_simple_bus_MMMS_SSS_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/ss_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ss_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/ss_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ss_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/ss_slave_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ss_slave_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/master1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/master2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/master_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/imports/new/mux_2to1_addr_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2to1_addr_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/imports/new/mux_3to1_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_3to1_8bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/imports/new/mux_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/simple_processor1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/simple_processor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/slave_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/ss_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ss_arbiter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/tb_simple_bus_MMMS_SSS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_simple_bus_MMMS_SSS
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_bus_MMMS_SSS_behav xil_defaultlib.tb_simple_bus_MMMS_SSS xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_bus_MMMS_SSS_behav xil_defaultlib.tb_simple_bus_MMMS_SSS xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ss_arbiter
+Compiling module xil_defaultlib.simple_processor1
+Compiling module xil_defaultlib.master_interface
+Compiling module xil_defaultlib.master1
+Compiling module xil_defaultlib.simple_processor2
+Compiling module xil_defaultlib.master2
+Compiling module xil_defaultlib.mux_2to1_addr_data
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.ss_memory
+Compiling module xil_defaultlib.ss_slave_interface
+Compiling module xil_defaultlib.ss_slave
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.slave_interface
+Compiling module xil_defaultlib.slave
+Compiling module xil_defaultlib.mux_demux
+Compiling module xil_defaultlib.mux_3to1_8bit
+Compiling module xil_defaultlib.tb_simple_bus_MMMS_SSS
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_simple_bus_MMMS_SSS_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_simple_bus_MMMS_SSS_behav -key {Behavioral:sim_1:Functional:tb_simple_bus_MMMS_SSS} -tclbatch {tb_simple_bus_MMMS_SSS.tcl} -view {{C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/tb_simple_bus_MMMS_SSS_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/tb_simple_bus_MMMS_SSS_behav.wcfg}
+source tb_simple_bus_MMMS_SSS.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time: 0 | Master Din: 00 | Addr: 00000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 35000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 55000 | Master Din: xx | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 65000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 75000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 105000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 125000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 145000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 175000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 195000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 205000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 215000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 245000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 265000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 285000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 315000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 335000 | Master Din: xx | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 345000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 355000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 385000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 405000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 425000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 515000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 535000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 545000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 555000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 585000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 605000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 625000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+$finish called at time : 655 ns : File "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simple_bus_MMMS_with_SSP/simple_bus_MMMS_with_SSP.srcs/sources_1/new/tb_simple_bus_MMMS_SSS.v" Line 233
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_simple_bus_MMMS_SSS_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1533.137 ; gain = 0.000
+run 10 us
+Time: 655000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 675000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 685000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 695000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 725000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 745000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 765000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 795000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 815000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 835000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 865000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 885000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 905000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 995000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1015000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1025000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1035000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1065000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1085000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1105000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1135000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1155000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1165000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1175000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1205000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1225000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1245000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1275000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1295000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 1315000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1345000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1365000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 1385000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1475000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1495000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1505000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1515000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1545000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1565000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1585000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1615000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1635000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1645000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1655000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1685000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1705000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1725000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1755000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1775000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 1795000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1825000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1845000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 1865000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1955000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 1975000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1985000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 1995000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2025000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2045000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2065000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2095000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2115000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2125000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2135000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2165000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2185000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2205000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2235000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2255000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 2275000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2305000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2325000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 2345000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2435000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2455000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2465000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2475000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2505000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2525000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2545000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2575000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2595000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2605000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2615000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2645000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2665000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2685000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2715000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2735000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 2755000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2785000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2805000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 2825000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2915000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2935000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2945000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 2955000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 2985000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3005000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3025000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3055000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3075000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3085000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3095000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3125000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3145000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3165000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3195000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3215000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 3235000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3265000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3285000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 3305000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3395000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3415000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3425000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3435000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3465000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3485000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3505000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3535000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3555000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3565000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3575000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3605000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3625000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3645000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3675000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3695000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 3715000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3745000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3765000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 3785000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3875000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3895000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3905000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3915000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3945000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 3965000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 3985000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4015000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4035000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4045000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4055000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4085000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4105000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4125000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4155000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4175000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 4195000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4225000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4245000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 4265000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4355000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4375000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4385000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4395000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4425000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4445000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4465000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4495000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4515000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4525000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4535000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4565000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4585000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4605000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4635000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4655000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 4675000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4705000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4725000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 4745000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4835000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4855000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4865000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4875000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4905000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4925000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 4945000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4975000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 4995000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5005000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5015000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5045000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5065000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5085000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5115000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5135000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 5155000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5185000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5205000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 5225000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5315000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5335000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5345000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5355000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5385000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5405000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5425000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5455000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5475000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5485000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5495000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5525000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5545000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5565000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5595000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5615000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 5635000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5665000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5685000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 5705000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5795000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5815000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5825000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5835000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5865000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5885000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5905000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5935000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 5955000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5965000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 5975000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6005000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6025000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6045000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6075000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6095000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 6115000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6145000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6165000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 6185000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6275000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6295000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6305000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6315000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6345000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6365000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6385000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6415000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6435000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6445000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6455000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6485000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6505000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6525000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6555000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6575000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 6595000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6625000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6645000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 6665000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6755000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6775000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6785000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6795000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6825000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6845000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6865000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6895000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6915000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6925000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 6935000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6965000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 6985000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7005000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7035000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7055000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 7075000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7105000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7125000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 7145000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7235000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7255000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7265000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7275000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7305000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7325000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7345000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7375000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7395000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7405000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7415000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7445000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7465000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7485000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7515000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7535000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 7555000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7585000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7605000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 7625000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7715000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7735000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7745000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7755000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7785000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7805000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7825000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7855000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7875000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7885000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7895000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7925000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7945000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 7965000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 7995000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8015000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 8035000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8065000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8085000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 8105000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8195000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8215000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8225000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8235000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8265000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8285000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8305000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8335000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8355000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8365000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8375000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8405000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8425000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8445000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8475000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8495000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 8515000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8545000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8565000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 8585000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8675000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8695000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8705000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8715000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8745000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8765000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8785000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8815000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8835000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8845000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8855000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8885000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8905000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 8925000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8955000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 8975000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 8995000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9025000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9045000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 9065000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9155000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9175000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9185000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9195000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9225000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9245000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9265000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9295000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9315000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9325000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9335000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9365000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9385000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9405000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9435000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9455000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 9475000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9505000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9525000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 9545000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9635000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9655000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9665000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9675000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9705000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9725000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9745000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9775000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9795000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9805000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9815000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9845000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9865000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 9885000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9915000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9935000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 9955000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 9985000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10005000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 10025000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10115000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10135000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10145000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10155000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10185000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10205000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10225000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10255000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10275000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10285000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10295000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10325000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10345000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10365000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10395000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10415000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 10435000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10465000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10485000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 10505000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10595000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10615000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10625000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10635000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+run 10 us
+Time: 10665000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10685000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10705000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10735000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10755000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10765000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10775000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10805000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10825000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 10845000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10875000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10895000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 10915000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10945000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 10965000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 10985000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11075000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11095000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11105000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11115000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11145000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11165000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11185000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11215000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11235000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11245000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11255000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11285000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11305000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11325000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11355000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11375000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 11395000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11425000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11445000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 11465000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11555000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11575000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11585000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11595000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11625000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11645000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11665000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11695000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11715000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11725000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11735000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11765000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11785000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 11805000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11835000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11855000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 11875000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11905000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 11925000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 11945000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12035000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12055000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12065000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12075000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12105000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12125000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12145000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12175000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12195000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12205000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12215000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12245000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12265000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12285000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12315000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12335000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 12355000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12385000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12405000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 12425000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12515000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12535000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12545000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12555000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12585000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12605000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12625000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12655000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12675000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12685000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12695000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12725000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12745000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 12765000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12795000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12815000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 12835000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12865000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12885000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 12905000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 12995000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13015000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13025000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13035000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13065000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13085000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13105000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13135000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13155000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13165000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13175000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13205000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13225000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13245000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13275000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13295000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 13315000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13345000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13365000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 13385000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13475000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13495000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13505000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13515000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13545000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13565000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13585000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13615000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13635000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13645000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13655000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13685000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13705000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13725000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13755000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13775000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 13795000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13825000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13845000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 13865000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13955000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 13975000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13985000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 13995000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14025000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14045000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14065000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14095000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14115000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14125000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14135000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14165000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14185000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14205000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14235000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14255000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 14275000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14305000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14325000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 14345000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14435000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14455000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14465000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14475000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14505000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14525000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14545000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14575000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14595000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14605000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14615000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14645000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14665000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14685000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14715000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14735000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 14755000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14785000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14805000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 14825000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14915000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14935000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14945000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 14955000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 14985000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15005000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15025000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15055000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15075000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15085000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15095000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15125000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15145000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15165000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15195000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15215000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 15235000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15265000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15285000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 15305000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15395000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15415000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15425000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15435000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15465000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15485000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15505000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15535000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15555000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15565000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15575000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15605000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15625000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15645000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15675000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15695000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 15715000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15745000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15765000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 15785000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15875000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15895000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15905000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15915000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15945000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 15965000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 15985000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16015000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16035000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16045000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16055000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16085000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16105000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16125000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16155000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16175000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 16195000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16225000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16245000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 16265000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16355000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16375000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16385000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16395000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16425000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16445000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16465000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16495000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16515000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16525000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16535000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16565000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16585000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16605000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16635000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16655000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 16675000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16705000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16725000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 16745000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16835000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16855000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16865000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16875000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16905000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16925000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 16945000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16975000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 16995000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17005000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17015000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17045000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17065000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17085000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17115000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17135000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 17155000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17185000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17205000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 17225000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17315000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17335000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17345000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17355000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17385000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17405000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17425000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17455000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17475000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17485000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17495000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17525000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17545000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17565000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17595000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17615000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 17635000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17665000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17685000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 17705000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17795000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17815000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17825000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17835000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17865000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17885000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17905000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17935000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 17955000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17965000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 17975000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18005000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18025000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18045000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18075000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18095000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 18115000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18145000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18165000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 18185000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18275000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18295000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18305000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18315000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18345000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18365000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18385000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18415000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18435000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18445000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18455000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18485000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18505000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18525000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18555000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18575000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 18595000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18625000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18645000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 18665000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18755000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18775000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18785000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18795000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18825000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18845000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18865000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18895000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18915000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18925000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 18935000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18965000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 18985000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19005000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19035000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19055000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 19075000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19105000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19125000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 19145000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19235000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19255000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19265000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19275000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19305000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19325000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19345000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19375000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19395000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19405000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19415000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19445000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19465000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19485000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19515000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19535000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 19555000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19585000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19605000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 19625000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19715000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19735000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19745000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19755000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19785000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19805000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19825000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19855000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19875000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19885000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19895000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19925000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19945000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 19965000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 19995000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20015000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 20035000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20065000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20085000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 20105000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20195000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20215000 | Master Din: a5 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 20225000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 20235000 | Master Din: 00 | Addr: 01000000000010 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20265000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20285000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 20305000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20335000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20355000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 20365000 | Master Din: a5 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 20375000 | Master Din: 00 | Addr: 01000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20405000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20425000 | Master Din: a5 | Addr: 01000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 1 | Slave3 Select: 0
+Time: 20445000 | Master Din: 00 | Addr: 01000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20475000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20495000 | Master Din: a5 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 20515000 | Master Din: 00 | Addr: 10000000000000 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20545000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+Time: 20565000 | Master Din: a5 | Addr: 10000000000001 | Write Enable: 1 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 1
+Time: 20585000 | Master Din: 00 | Addr: 10000000000001 | Write Enable: 0 | Slave1 Select: 0 | Slave2 Select: 0 | Slave3 Select: 0
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 10 00:02:16 2025...
