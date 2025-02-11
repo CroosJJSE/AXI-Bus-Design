@@ -1,0 +1,809 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Feb 10 01:29:10 2025
+# Process ID: 39808
+# Current directory: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31008 C:\Users\Hansa Niluka\OneDrive - University of Moratuwa\semster 07\4.EN4021 - Advanced Digital Systems\Bus-Desingn_\simply_bridged_2buses\simply_bridged_2buses.xpr
+# Log file: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/vivado.log
+# Journal file: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses\vivado.jou
+# Running On: LAPTOP-P4L0CG7N, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simply_bridged_2buses' since last save.
+INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.gen/sources_1', nor could it be found using path 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simply_bridged_2buses/simply_bridged_2buses.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 1566.992 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_2to1_addr_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2to1_addr_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_3to1_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_3to1_8bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/simple_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arbiter_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/simple_processor1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/simple_processor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/slave_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simple_processor1
+Compiling module xil_defaultlib.master_interface
+Compiling module xil_defaultlib.master1
+Compiling module xil_defaultlib.dual_clock_fifo(DATA_WIDTH=4)
+Compiling module xil_defaultlib.dual_clock_fifo
+Compiling module xil_defaultlib.master_bridge
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.slave_interface
+Compiling module xil_defaultlib.slave
+Compiling module xil_defaultlib.slave_bridge
+Compiling module xil_defaultlib.decoder1
+Compiling module xil_defaultlib.mux_2to1_addr_data
+Compiling module xil_defaultlib.mux_3to1_8bit
+Compiling module xil_defaultlib.mux_demux
+Compiling module xil_defaultlib.arbiter_fsm
+Compiling module xil_defaultlib.bus1
+Compiling module xil_defaultlib.simple_processor2
+Compiling module xil_defaultlib.master2
+Compiling module xil_defaultlib.decoder2
+Compiling module xil_defaultlib.bus2
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_module_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_module_behav -key {Behavioral:sim_1:Functional:top_module} -tclbatch {top_module.tcl} -view {{C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/top_module_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/top_module_behav.wcfg}
+source top_module.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 350 ns : File "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/top_module.v" Line 114
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_module_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1566.992 ; gain = 0.000
+run 10 us
+run 10 us
+add_bp {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v} 99
+remove_bps -file {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v} -line 99
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon Feb 10 20:09:43 2025] Launched synth_1...
+Run output will be captured here: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+ERROR: [VRFC 10-4982] syntax error near '@' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:140]
+ERROR: [VRFC 10-4982] syntax error near '@' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:152]
+ERROR: [VRFC 10-4982] syntax error near '-' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:167]
+ERROR: [VRFC 10-4982] syntax error near ';' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:170]
+ERROR: [VRFC 10-1065] multiple statement function/task without begin/end not supported in this mode of Verilog [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:163]
+ERROR: [VRFC 10-4982] syntax error near '@' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:178]
+ERROR: [VRFC 10-4982] syntax error near '<=' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:183]
+ERROR: [VRFC 10-4982] syntax error near '<=' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:196]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:114]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:114]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:115]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:115]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:116]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:116]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:117]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:117]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:118]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:118]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:119]
+INFO: [#UNDEF] Sorry, too many errors..
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1566.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1566.992 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+ERROR: [VRFC 10-4982] syntax error near '-' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:167]
+ERROR: [VRFC 10-4982] syntax error near ';' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:170]
+ERROR: [VRFC 10-1065] multiple statement function/task without begin/end not supported in this mode of Verilog [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:163]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:114]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:114]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:115]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:115]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:116]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:116]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:117]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:117]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:118]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:118]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:119]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:119]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:120]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:120]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:121]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:121]
+INFO: [#UNDEF] Sorry, too many errors..
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+ERROR: [VRFC 10-4982] syntax error near '-' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:167]
+ERROR: [VRFC 10-4982] syntax error near ';' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:170]
+ERROR: [VRFC 10-1065] multiple statement function/task without begin/end not supported in this mode of Verilog [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:163]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:114]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:114]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:115]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:115]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:116]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:116]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:117]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:117]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:118]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:118]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:119]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:119]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:120]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:120]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:121]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:121]
+INFO: [#UNDEF] Sorry, too many errors..
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+ERROR: [VRFC 10-4982] syntax error near '-' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:167]
+ERROR: [VRFC 10-4982] syntax error near ';' [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:170]
+ERROR: [VRFC 10-1065] multiple statement function/task without begin/end not supported in this mode of Verilog [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:163]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:151]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:163]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:163]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:165]
+ERROR: [VRFC 10-2989] 'logic' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:165]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register rd_data is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:194]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register rd_data is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:196]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'wr_ptr_bin_next' is not permitted [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:203]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'rd_ptr_bin_next' is not permitted [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:204]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'wr_ptr_gray_next' is not permitted [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:207]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'rd_ptr_gray_next' is not permitted [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:208]
+ERROR: [VRFC 10-2865] module 'dual_clock_fifo' ignored due to previous errors [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:110]
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'wr_ptr_bin_next' is not permitted [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:206]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'rd_ptr_bin_next' is not permitted [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:207]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'wr_ptr_gray_next' is not permitted [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:210]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'rd_ptr_gray_next' is not permitted [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:211]
+ERROR: [VRFC 10-2865] module 'dual_clock_fifo' ignored due to previous errors [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:111]
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_2to1_addr_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2to1_addr_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_3to1_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_3to1_8bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/simple_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arbiter_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/simple_processor1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/simple_processor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/slave_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'reset' on this module [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v:87]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v:77]
+ERROR: [VRFC 10-3180] cannot find port 'reset' on this module [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v:102]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v:92]
+ERROR: [VRFC 10-3180] cannot find port 'reset' on this module [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v:117]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v:107]
+ERROR: [VRFC 10-3180] cannot find port 'reset' on this module [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v:88]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v:78]
+ERROR: [VRFC 10-3180] cannot find port 'reset' on this module [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v:103]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v:93]
+ERROR: [VRFC 10-3180] cannot find port 'reset' on this module [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v:118]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v:108]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1566.992 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:139]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:140]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:151]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:152]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:189]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:190]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:201]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:202]
+ERROR: [VRFC 10-2865] module 'dual_clock_fifo' ignored due to previous errors [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:110]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:139]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:140]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:152]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:190]
+ERROR: [VRFC 10-2989] 'rst_n' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:202]
+ERROR: [VRFC 10-2865] module 'dual_clock_fifo' ignored due to previous errors [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:110]
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_2to1_addr_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2to1_addr_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_3to1_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_3to1_8bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/simple_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arbiter_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/simple_processor1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/simple_processor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/slave_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v:77]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v:92]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v:107]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v:78]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v:93]
+ERROR: [VRFC 10-2858] localparam 'DEPTH' cannot be overwritten [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v:108]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1566.992 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:129]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:129]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:130]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:130]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:132]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:132]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:133]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:133]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:136]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:136]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:148]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:148]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:160]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:160]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:162]
+ERROR: [VRFC 10-1775] range must be bounded by constant expressions [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:162]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:164]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:165]
+ERROR: [VRFC 10-2989] 'ADDR_WIDTH' is not declared [C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v:173]
+INFO: [#UNDEF] Sorry, too many errors..
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_module'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_module' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_module_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/bus2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_clock_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/master_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/master_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_2to1_addr_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2to1_addr_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_3to1_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_3to1_8bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/mux_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/simple_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arbiter_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/simple_processor1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/simple_processor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_processor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/slave_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_bridge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/slave_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1566.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_module_behav xil_defaultlib.top_module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simple_processor1
+Compiling module xil_defaultlib.master_interface
+Compiling module xil_defaultlib.master1
+Compiling module xil_defaultlib.dual_clock_fifo(DATA_WIDTH=4)
+Compiling module xil_defaultlib.dual_clock_fifo_default
+Compiling module xil_defaultlib.master_bridge
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.slave_interface
+Compiling module xil_defaultlib.slave
+Compiling module xil_defaultlib.slave_bridge
+Compiling module xil_defaultlib.decoder1
+Compiling module xil_defaultlib.mux_2to1_addr_data
+Compiling module xil_defaultlib.mux_3to1_8bit
+Compiling module xil_defaultlib.mux_demux
+Compiling module xil_defaultlib.arbiter_fsm
+Compiling module xil_defaultlib.bus1
+Compiling module xil_defaultlib.simple_processor2
+Compiling module xil_defaultlib.master2
+Compiling module xil_defaultlib.decoder2
+Compiling module xil_defaultlib.bus2
+Compiling module xil_defaultlib.top_module
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_module_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1566.992 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_module_behav -key {Behavioral:sim_1:Functional:top_module} -tclbatch {top_module.tcl} -view {{C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/top_module_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/top_module_behav.wcfg}
+WARNING: Simulation object /top_module/bus1/slave_bridge1/rd_fifo/fifo_mem was not found in the design.
+WARNING: Simulation object /top_module/bus1/slave_bridge1/rd_fifo/wr_ptr was not found in the design.
+WARNING: Simulation object /top_module/bus1/slave_bridge1/rd_fifo/rd_ptr was not found in the design.
+WARNING: Simulation object /top_module/bus1/slave_bridge1/rd_fifo/wr_ptr_sync was not found in the design.
+WARNING: Simulation object /top_module/bus1/slave_bridge1/rd_fifo/rd_ptr_sync was not found in the design.
+source top_module.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 350 ns : File "C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/new/top_module.v" Line 114
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_module_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 1571.895 ; gain = 4.902
+run 10 us
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.runs/synth_1/top_module.dcp to C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn/simply_bridged_2buses/simply_bridged_2buses.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Feb 11 11:07:16 2025] Launched synth_1...
+Run output will be captured here: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Feb 11 11:08:34 2025] Launched synth_1...
+Run output will be captured here: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 11 11:09:25 2025...

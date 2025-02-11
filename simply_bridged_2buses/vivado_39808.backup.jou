@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Feb 10 01:29:10 2025
+# Process ID: 39808
+# Current directory: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31008 C:\Users\Hansa Niluka\OneDrive - University of Moratuwa\semster 07\4.EN4021 - Advanced Digital Systems\Bus-Desingn_\simply_bridged_2buses\simply_bridged_2buses.xpr
+# Log file: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/vivado.log
+# Journal file: C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses\vivado.jou
+# Running On: LAPTOP-P4L0CG7N, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/top_module_behav.wcfg}
+source top_module.tcl
+run 10 us
+run 10 us
+add_bp {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v} 99
+remove_bps -file {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/simply_bridged_2buses.srcs/sources_1/imports/new/dual_clock_fifo.v} -line 99
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/Hansa Niluka/OneDrive - University of Moratuwa/semster 07/4.EN4021 - Advanced Digital Systems/Bus-Desingn_/simply_bridged_2buses/top_module_behav.wcfg}
+source top_module.tcl
+run 10 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
