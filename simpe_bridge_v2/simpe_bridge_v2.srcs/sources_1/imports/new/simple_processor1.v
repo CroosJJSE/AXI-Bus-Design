@@ -67,13 +67,13 @@ module simple_processor1 #(
     initial begin
         // Initialize regfile with values 1 to 8
         regfile[0] = 8'd1;
-        regfile[1] = 8'd2;
-        regfile[2] = 8'd3;
-        regfile[3] = 8'd4;
-        regfile[4] = 8'd5;
-        regfile[5] = 8'd6;
-        regfile[6] = 8'd7;
-        regfile[7] = 8'd8;
+        regfile[1] = 8'd3;
+        regfile[2] = 8'd5;
+        regfile[3] = 8'd7;
+        regfile[4] = 8'd9;
+        regfile[5] = 8'd11;
+        regfile[6] = 8'd13;
+        regfile[7] = 8'd15;
 
         // Initialize instruction memory (updated instructions for communication with all three slaves)
         instr_mem[0] = {OP_READ, 4'b0010, 4'b0000};   // Read from memory address 2 to regfile[0] (Slave 1)
@@ -89,7 +89,6 @@ module simple_processor1 #(
         instr_mem[7] = {OP_WRITE, 4'b1101, 4'b0111};   
 
 //          instr_mem[0] = {OP_IDLE, 4'b0000, 4'b0000};
-
 //          instr_mem[1] = {OP_IDLE, 4'b0000, 4'b0000};
 //          instr_mem[2] = {OP_IDLE, 4'b0000, 4'b0000};
 //          instr_mem[3] = {OP_IDLE, 4'b0000, 4'b0000};

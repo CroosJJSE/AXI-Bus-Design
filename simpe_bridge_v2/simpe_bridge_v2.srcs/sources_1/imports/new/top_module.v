@@ -83,7 +83,7 @@ bus2 bus2(
 
     initial begin
         // Generate clk2 (14ns period)
-        forever #100 clk2 = ~clk2; 
+        forever #7 clk2 = ~clk2; 
     end
     
     initial begin
